@@ -17,7 +17,7 @@ driver.implicitly_wait(10)  # 等待网页加载10秒
 # data = driver.window_handles  # 将所有窗口编组
 # driver.switch_to.window(data[1])  # 切换到第二个窗口
 #
-# driver.find_elemen6By.XPATH, '//*[@id="InitCartUrl"]').click()  # 加入购物车
+# driver.find_element(By.XPATH, '//*[@id="InitCartUrl"]').click()  # 加入购物车
 
 # 苏宁易购
 # driver.get('https://www.suning.com/')  # 进入苏宁首页
